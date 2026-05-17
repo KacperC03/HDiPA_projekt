@@ -1,2 +1,10 @@
 file_path = r"C:/Users/Lenovo/Desktop/WorkspaceVSC/HDiPA/uav_drone_2025-12-10_150249_0.mcap/uav_drone_2025-12-10_150249_0.mcap"
 topic_name = "/sensing/gnss/ublox_moving_base_node/fix"
+robot_num = 20          # Całkowita liczba robotów w systemie
+avg_move = 8           # Średnia liczba robotów poruszających się jednocześnie
+duration = 15       # Czas trwania symulacji w minutach
+start_timestamp = 1779010000.0  # Punkt startowy w czasie (Rok 2026)
+sampling_rate = 9.99     # Częstotliwość próbkowania w Hz
+lat = 52.401585
+lon = 16.951958
+datagen_dir = "data"
